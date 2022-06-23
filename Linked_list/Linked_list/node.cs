@@ -4,9 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Linked_list
+namespace LinkedList
 {
-    internal class node
+
+    public class Node
     {
+        public int data;
+        public Node next;
+
+        public Node(int data)
+        {
+            this.data = data;
+            next = null;
+        }
     }
 }
